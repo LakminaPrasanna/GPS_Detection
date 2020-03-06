@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="409dp"
+        android:layout_height="395dp"
+        android:layout_weight="1"
+        tools:context=".MapsActivity"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <Button
+        android:id="@+id/btn_logData"
+        android:layout_width="160dp"
+        android:layout_height="37dp"
+        android:layout_below="@+id/map"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="LOG DATA"
+        map:layout_constraintBottom_toBottomOf="parent"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintHorizontal_bias="0.497"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map"
+        map:layout_constraintVertical_bias="0.754" />
+
+    <EditText
+        android:id="@+id/txt_routeTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="enter route tag"
+        android:inputType="textPersonName"
+        map:layout_constraintBottom_toTopOf="@+id/txt_accuracy"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map"
+        map:layout_constraintVertical_bias="0.683" />
+
+    <EditText
+        android:id="@+id/txt_accuracy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:hint="error"
+        android:inputType="textPersonName"
+        map:layout_constraintBottom_toTopOf="@+id/btn_logData"
+        map:layout_constraintEnd_toEndOf="parent"
+        map:layout_constraintStart_toStartOf="parent"
+        map:layout_constraintTop_toBottomOf="@+id/map"
+        map:layout_constraintVertical_bias="0.743" />
+</android.support.constraint.ConstraintLayout>
+
+
+
+
+
+
+
+
+

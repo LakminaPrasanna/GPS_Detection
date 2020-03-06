@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "680241101742",
+    "firebase_url": "https://enforcesdb.firebaseio.com",
+    "project_id": "enforcesdb",
+    "storage_bucket": "enforcesdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:680241101742:android:aa40027440c415c1a3e63f",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "680241101742-nm08q6l20agfof3159sc9v61mflt86kt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3ekyCtlMoM9ZCeoOL5z6uLVJMhV2KlUI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "680241101742-nm08q6l20agfof3159sc9v61mflt86kt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
